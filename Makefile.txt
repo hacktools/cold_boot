@@ -1,0 +1,9 @@
+all: generate find
+
+generate: do_pattern.c
+	g++ do_pattern.c -o do_pattern
+
+find: find_pattern.c
+	g++ find_pattern.c -o find_pattern
+
+
